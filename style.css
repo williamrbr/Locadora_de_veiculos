@@ -1,0 +1,29 @@
+/* font importing */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* reseting css rules */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "roboto", sans-serif;
+}
+
+html,
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    background:orange;
+}
+
+.content{
+    max-width: 1000px;
+    max-height: 300px;
+    margin: 0 auto;
+}
